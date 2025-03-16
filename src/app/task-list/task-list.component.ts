@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NgClass, NgFor } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 interface Task {
@@ -12,7 +11,6 @@ interface Task {
   selector: 'app-todo-list',
   templateUrl: './todo-list.component.html',
   styleUrls: ['./todo-list.component.scss'],
-  imports: [NgFor, FormsModule, NgClass],
   standalone: true, // Set standalone to true
 })
 
